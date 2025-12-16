@@ -1,0 +1,41 @@
+.div {
+    background-color: rgb(248, 218, 121);
+    border-radius: 12px;
+    padding: 20px 40px;
+    width: 400px;
+    margin: 120px auto;
+}
+.div .a{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+img {
+    width: 800px;
+    transition: 2s;
+    border-radius: 30px;
+}
+.img2{
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+img:hover{
+    scale: 1.5;
+}
+.iframe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    border-radius: 30px;
+    box-shadow: 0 0 40px #0400ff;
+}
